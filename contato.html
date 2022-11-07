@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 200px;
+            display: flex;
+            margin: 0px;
+            background-color: aqua;                     
+        }
+        .wrapper img {
+            width: 100%;
+            padding: 10px 20px 0px;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 100%;                        
+        }
+        .menu {
+            width: 100%;
+            height: 300px;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+            display: flex;
+        }
+        #logo{            
+            width: 200px;            
+            flex-flow: column; 
+                                 
+        }
+        #menus {
+            text-align: left;
+            margin-left: 450px;        
+           
+        }
+        #menus li{
+            display: inline-block;            
+            width: 110px;
+            color: #f1f1f1;
+            text-align: center;
+            
+            
+        }
+        .content {
+            
+            min-height: 665px;
+            
+            padding: 0px;
+            
+        }
+        
+        .row {
+            margin: 5px;
+            
+        }
+        .row1{
+            display: flex;
+            
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 15px;
+            border-radius: 10px;
+            border-color: aquamarine;
+
+        }
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 150px;
+            display: flex;
+            text-align: justify;
+            
+        }        
+        #nome{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;   
+            
+        }
+        #institucional{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #duvidas{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #contatos{
+            width:250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="menu">
+            <h1>Vendedores</h1>
+            
+            <p>Marcio Humann</p>
+            <a href="#">(41)9898 9898</a>
+            <p>João Frederico</p>
+            <a href="#">(41)9797 9797</a>
+            <p>Jefferson Hen</p>
+            <a href="#">(41)9696 9696</a>   
+            <p>Marcia Gentil</p> 
+            <a href="#">(41)9598 9595</a>   
+            <p>Fernanda Saz</p> 
+            <a href="#">(41)9494 9494</a>    
+            <p>Carlos Gil</p> 
+            <a href="#">(41)9494 9494</a>  
+            </ul>
+            <img  src="venda.jpg" alt="um vendedor atendendo os clientes na loja de moveis">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <img id="logo" src="logo.jpg" alt="logo da loja de moveis planejados"> 
+            <ul id="menus">
+                <a href="index.html"><li>Página Principal</li></a>
+                <a href="sobre.html"><li>Sobre a M M</li></a>
+                <a href="loja.html"><li>Nossa Loja</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+            </ul>
+            <!--Aqui vai o header-->           
+        </div>
+    
+        <div class="content">
+            <div id="endereco">           
+
+            <p><strong>Av. Marechal Floriano Peixoto - 747, Bairro Centro Curitiba PR</strong></p> 
+            </strong> 
+            </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.041427334047!2d-49.27128708595738!3d-25.436878483785293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfb2aaba96ddf%3A0x76426cb89022b55e!2sAv.%20Mal.%20Floriano%20Peixoto%20-%20Centro%2C%20Curitiba%20-%20PR!5e0!3m2!1spt-BR!2sbr!4v1667825015746!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form name="signup" onsubmit="alert('Enviei o formulário!')" autocomplete="off" target="_blank" method="post" action="#"></form>
+                <fieldset>
+                    <legend>Fale com a gente</legend>
+                    <div class="row">
+                        <label for="#">Nome: </label><input type="text" name="nome"/><br>
+                        <label for="#">E-mail: </label><input type="email" name="e_mail"/><br>
+                        <label for="#">Assunto: </label><input type="text" name="assunto"/>
+                    </div>
+                    <div class="row1">                    
+                        <label for="#">Mensagem: </label>
+                        <textarea name="message" cols="30" rows="10"></textarea>
+                    </div>
+                </fieldset>
+            <div class="row">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar formulário</button>
+            </div>                         
+        </div>
+
+        <div class="footer">
+            <div id="Nome">
+               <h1><font size="20">M M </font><br> Móveis Planejados</h1> 
+            </div>
+            <div id="institucional">
+                <h3>Institucional</h3>
+                <a href="#"><p>Sobre Nós</p></a>
+                <a href="#">Trabalhe Conosco</p></a>
+                <a href="#"><p>Politica de Privacidade</p>
+                <a href="#"><p>Nossas Lojas</p></a>
+            </div>
+            <div id="duvidas">
+                <h3>Dúvidas e Ajudas</h3>
+                <a href="#"><p>Fale Conosco</p></a>
+                <a href="#"><p>Trocas e Devoluções</p></a>
+                <a href="#"><p>Formas de Pagamento</p></a>
+                <a href="#"><p>Entrega e Montagens</p></a>
+            </div>
+            <div id="contatos">
+                <h3>Contatos</h3>
+                <p>(41) 9999 9999</p>
+                <p>(41) 3333 3333</p>
+                <p><font font size="2">Segunda a sexta-feira das 9:00 às 18:00
+                    Sábado das 9:00 às 13:00
+                    Domingos e feriados não há atendimento</font></p>
+                <a href="#"><p>Facebook</p></a>
+                <a href="#"><p>Instagran</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

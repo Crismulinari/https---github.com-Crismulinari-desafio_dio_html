@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 200px;
+            display: flex;
+            margin: 0px;
+            background-color: aqua;                     
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 100%;                        
+        }
+        .menu {
+            width: 100%;
+            height: 300px;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+            display: flex;
+        }
+        #logo{            
+            width: 350px;            
+            flex-flow: column; 
+                                 
+        }
+        #menus {
+            text-align: left;
+            margin-left: 300px;        
+           
+        }
+        
+        #menus li{
+            display: inline-block;            
+            width: 110px;
+            color: #f1f1f1;
+            text-align: center;
+            
+            
+        }
+        .content {
+            background-image: url(interna5.jpg);
+            min-height: 665px;
+            
+            padding: 0px;
+            
+        }
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 150px;
+            display: flex;
+            text-align: justify;
+            
+        }        
+        #nome{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+            
+            
+        }
+        #institucional{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #duvidas{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #contatos{
+            width:250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1><font face="Aria">Parceiros</font></h1>
+            
+            <strong><p><font face="Aria">Madeiras Oggi</font></p></strong>
+            <strong><p><font face="Aria">Madeiras Dellano</font></p></strong>
+            <strong><p><font face="Aria">Madeiras Verano</font></p></strong>    
+            <strong><p><font face="Aria">Aços Gênova</font></p></strong>    
+            <strong><p><font face="Aria">Dobradiças Carrilha</font></p></strong>     
+            <strong><p><font face="Aria">Transporte Carraro</font></p></strong>   
+            </ul>
+            <img style="width: 150px;" src="MM.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <img id="logo" src="images.png" alt="logo da loja de moveis planejados"> 
+            <ul id="menus">
+                <a href="index.html"><li>Página Principal</li></a>
+                <a href="sobre.html"><li>Sobre a MM</li></a>
+                <a href="loja.html"><li>Nossa Loja</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+            </ul>
+                    
+        </div>
+    
+        <div class="content">
+            
+            <p><font color="black" size="5" face="'Trebuchet MS', Tahoma"> É uma empresa de muita credibilidade no mercado garantindo a qualidade e o prazo do cliente. <br>
+            Venha conhecer e constatar a qualidade dos móveis com um atendimento exclusivo com todo o conforto e atenção que você merece. <br>
+            Batemos todos os preços e prazos dos concorrentes.</font></p>
+            <br><br>
+            <h1><font color="black" size="10" face="'Trebuchet MS', Tahoma">MM<br> Móveis</font></h1><br>
+        </div>
+
+        <div class="footer">
+            <div id="Nome">
+               <h1><font size="20">MM </font><br> Móveis Planejados</h1> 
+            </div>
+            <div id="institucional">
+                <h3>Institucional</h3>
+                <a href="#"><p>Sobre Nós</p></a>
+                <a href="#">Trabalhe Conosco</p></a>
+                <a href="#"><p>Politica de Privacidade</p>
+                <a href="#"><p>Nossas Lojas</p></a>
+            </div>
+            <div id="duvidas">
+                <h3>Dúvidas e Ajudas</h3>
+                <a href="#"><p>Fale Conosco</p></a>
+                <a href="#"><p>Trocas e Devoluções</p></a>
+                <a href="#"><p>Formas de Pagamento</p></a>
+                <a href="#"><p>Entrega e Montagens</p></a>
+            </div>
+            <div id="contatos">
+                <h3>Contatos</h3>
+                <p>(41) 9999 9999</p>
+                <p>(41) 3333 3333</p>
+                <p><font font size="2">Segunda a sexta-feira das 9:00 às 18:00
+                    Sábado das 9:00 às 13:00
+                    Domingos e feriados não há atendimento</font></p>
+                <a href="#"><p>Facebook</p></a>
+                <a href="#"><p>Instagran</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

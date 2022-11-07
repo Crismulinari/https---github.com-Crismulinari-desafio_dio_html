@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a MM Móveis</title>
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 200px;
+            display: flex;
+            margin: 0px;
+            background-color: aqua;                     
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 100%;                        
+        }
+        .menu {
+            width: 100%;
+            height: 300px;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+            
+            
+        }        
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+            display: flex;
+        }
+        #logo{            
+            width: 200px;            
+            flex-flow: column; 
+                                 
+        }
+        #menus {
+            text-align: left;
+            margin-left: 450px;        
+           
+        }
+        #menus li{
+            display: inline-block;            
+            width: 110px;
+            color: #f1f1f1;
+            text-align: center;
+            
+            
+        }
+        .content {
+            background-image: url(marcenaria.jpg);
+            min-height: 665px;
+            
+            padding: 0px;
+            
+        }
+        .footer {
+            background-color: rgb(99, 56, 240);
+            min-height: 150px;
+            display: flex;
+            text-align: justify;
+            
+        }        
+        #nome{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+           
+            
+            
+        }
+        #institucional{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #duvidas{
+            width: 250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+        #contatos{
+            width:250px;
+            margin-left: 50px;
+            flex-flow: column;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>Fundador</h1>            
+            <strong><p>Cristiano Mulinari</p><br></strong>
+            <h1>Sócios</h1>
+            <strong><p>Josiane Santos</p></strong>
+            <strong><p>Giovana Mulinari</p></strong>    
+            <strong><p>Ana Soares</p></strong>    
+            <strong><p>Julia Soares</p></strong>    
+            <strong><p>Beatriz Soares</p></strong>   
+            <img style="width: 180px;" src="Marcenaria-e-Lojas-de-Planejados.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="header">
+            <img id="logo" src="logo.jpg" alt="logo da loja de moveis planejados"> 
+            <ul id="menus">
+                <a href="index.html"><li>Página Principal</li></a>
+                <a href="sobre.html"><li>Sobre a MM</li></a>
+                <a href="loja.html"><li>Nossa Loja</li></a>
+                <a href="contato.html"><li>Contato</li></a>
+            </ul>
+            <!--Aqui vai o header-->           
+        </div>
+    
+        <div class="content">
+            <p><font size="5"> A MM Móveis é uma empresa de família que começou a mais de 20 anos no fundo da casa do Sr Cristiano, fazendo móveis para os amigos e familiares com muita qualidade e muito amor. Com o auxilio da esposa que largou seu emprego em uma empresa muito conceituada naqueles anos, dedicou-se a administar a empresa  </p></font>  
+            
+        </div>
+
+        <div class="footer">
+            <div id="Nome">
+               <h1><font size="20">MM </font><br> Móveis Planejados</h1> 
+            </div>
+            <div id="institucional">
+                <h3>Institucional</h3>
+                <a href="#"><p>Sobre Nós</p></a>
+                <a href="#">Trabalhe Conosco</p></a>
+                <a href="#"><p>Politica de Privacidade</p>
+                <a href="#"><p>Nossas Lojas</p></a>
+            </div>
+            <div id="duvidas">
+                <h3>Dúvidas e Ajudas</h3>
+                <a href="#"><p>Fale Conosco</p></a>
+                <a href="#"><p>Trocas e Devoluções</p></a>
+                <a href="#"><p>Formas de Pagamento</p></a>
+                <a href="#"><p>Entrega e Montagens</p></a>
+            </div>
+            <div id="contatos">
+                <h3>Contatos</h3>
+                <p>(41) 9999 9999</p>
+                <p>(41) 3333 3333</p>
+                <p><font font size="2">Segunda a sexta-feira das 9:00 às 18:00
+                    Sábado das 9:00 às 13:00
+                    Domingos e feriados não há atendimento</font></p>
+                <a href="#"><p>Facebook</p></a>
+                <a href="#"><p>Instagran</p></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
