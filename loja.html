@@ -5,141 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossa Loja</title>
-    <style>
-        html, body {
-            margin: 0;
-        }
-        body {
-            background-color: #f1f1f1;
-            display: flex;
-            justify-content: center;
-        }
-
-        .wrapper {
-            width: 200px;
-            display: flex;
-            margin: 0px;
-            background-color: aqua;                     
-        }
-        .main {
-            display: flex;
-            flex-flow: column;
-            width: 100%;                        
-        }
-        .menu {
-            width: 100%;
-            height: 300px;
-            background-color: aqua;
-            padding: 10px 20px 0px;
-        }
-        .menu ul{
-            list-style-type: none;
-        }
-        .header {
-            background-color: rgb(5, 108, 108);
-            min-height: 150px;
-            display: flex;
-        }
-        #logo{            
-            width: 200px;            
-            flex-flow: column; 
-                                 
-        }
-        #menus {
-            text-align: left;
-            margin-left: 450px;        
-           
-        }
-        #menus li{
-            display: inline-block;            
-            width: 110px;
-            color: #f1f1f1;
-            text-align: center;
-            
-            
-        }
-        .content {
-            
-            min-height: 665px;
-            
-            padding: 0px;
-            
-        }
-        .precos{
-            margin-bottom: 0px;
-            font-size: medium;
-            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-        }
-        .precos thead th{
-            background-color: rgb(84, 223, 20);
-            color: white;
-        }
-        .precos tfoot td{
-            background-color: rgb(84, 223, 20);
-        }
-        .precos tbody tr:nth-child(even) td{
-            background-color: #f1f1f1;
-            
-        }
-        .precos tbody tr:hover td{
-            background-color: #e9e9e9;
-            cursor: pointer;
-            
-        }
-        .footer {
-            background-color: rgb(99, 56, 240);
-            min-height: 150px;
-            display: flex;
-            text-align: justify;
-            
-        }        
-        #nome{
-            width: 250px;
-            margin-left: 50px;
-            flex-flow: column;
-            
-            
-            
-        }
-        #institucional{
-            width: 250px;
-            margin-left: 50px;
-            flex-flow: column;
-            
-        }
-        #duvidas{
-            width: 250px;
-            margin-left: 50px;
-            flex-flow: column;
-            
-        }
-        #contatos{
-            width:250px;
-            margin-left: 50px;
-            flex-flow: column;
-            
-        }
-    </style>
+   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <div class="menu">
-            <h1>Madeiras</h1>
-            
+        <div class="menu2">
+            <h1>Madeiras</h1>            
             <p>MDF</p>
             <p>Pinho</p>
             <p>MDP</p>    
             <p>Carvalho</p>    
             <p>Cedro</p>     
-            <p>Pinus</p>   
-            </ul>
+            <p>Pinus</p>  
+            <br>
+            <div id="iframe">
             <iframe width="150" height="95" src="https://www.youtube.com/embed/bjD8tmkzGpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
-
     <div class="main">
-        <div class="header">
-            <img id="logo" src="logo.jpg" alt="logo da loja de moveis planejados"> 
+        <div class="header2">             
             <ul id="menus">
                 <a href="index.html"><li>Página Principal</li></a>
                 <a href="sobre.html"><li>Sobre a M M</li></a>
@@ -149,11 +34,11 @@
             <!--Aqui vai o header-->           
         </div>
     
-        <div class="content">
+        <div class="content2">
             
             <p><strong>Nossa loja física para atendimento fica aberto de Segunda a sexta-feira das 9:00 às 18:00 e
                 Sábado das 9:00 às 13:00
-                Domingos e feriados não há atendimento</strong></p><br><br>
+                Domingos e feriados não há atendimento</strong></p>
                 <table class="precos" summary="Resumo mais detalhado dos dados da tabela." cellspacing="5" width="1050" cellpadding="10" align="center">
                     
                     <thead>
@@ -164,7 +49,7 @@
                             <th title="nome completo">Móveis sob medida</th>
                             <th>Armarios Superiores 100M <sup>2</sup></th>
                             <th>Armarios Inferiores 100M <sup>2</sup></th>
-                            <th>Valores totais por 100M <sup>2</sup>de cada item</th>
+                            <th>Valores totais por 100M <sup>2</sup> de cada item</th>
                         </tr>
                     </thead>    
                     <tbody>
@@ -223,7 +108,7 @@
                         </tr>    
                     </tfoot>    
                 </table> 
-                <blockquote><p>Preços médios podendo ser alterados conforme a necessiadade do cliente!</p></blockquote>             
+                <blockquote><p>Preços médios podendo ser alterados conforme a necessidade do cliente!</p></blockquote>             
         </div>
         
         
